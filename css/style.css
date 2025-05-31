@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+section{
+	width: 100%; min-height: 800px
+}
+.nav-link{
+	color: #EFECEC
+}
+.navbar .navbar-brand{
+	font-weight: 600; color: #DCD4D4
+}
+.navbar .navbar-brand:hover{
+	color: #E81418
+}
+.custom-navbar {
+	background-color: #2B9F9D
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 300px;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.skill span {
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.progress {
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.blue { background-color: #007BFF; }
+.orange { background-color: #FF5722; }
+.red { background-color: #E53935; }
+.purple { background-color: #8E24AA; }
+.darkpurple { background-color: #6A1B9A; }
+.blue2 { background-color: #0000FF; }
+.green { background-color: #388E3C; }
+.pink { background-color: #EC407A; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: white;
+  margin: 50px;
+}
+
+.section-title {
+  color: #007bff;
+  font-size: 28px;
+  font-family: 'Dancing Script', cursive; /* bạn có thể dùng font khác */
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.tab:hover {
+  background: rgba(0, 123, 255, 0.1);
+}
+
+.tab.active {
+  background: #007bff;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* khoảng cách giữa ảnh */
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 40px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 300px;
+  color: #000;
+}
+
+.contact-info h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #007bff;
+  font-size: 28px;
+}
+
+.contact-info .label {
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
+.contact-info i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.contact-form {
+  flex: 2;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 60px;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+}
